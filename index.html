@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>每日新闻|主页</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/style.css">
+        <script src="https://kit.fontawesome.com/95a3ae1020.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header class="p-5 bg-secondary text-center text-warning">
+            <h1>每日新闻</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html"><i class="fas fa-newspaper"></i> 新闻</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sport.html"><i class="fas fa-futbol"></i> 远动</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="travel.html"><i class="fas fa-suitcase-rolling"></i> 旅行</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="culture.html"><i class="fas fa-atlas"></i> 文化</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-question-circle"></i> More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="aboutme.html">关于我</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signin.html"><i class="fas fa-sign-in-alt"></i> Sign in</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" action="https://www.google.com/search" method="get" name="searchform"
+                          target="_blank">
+                        <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">查询</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <main class="pt-5 pb-5">
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col"><h2>欢迎</h2></div>
+                    </div>
+                </div>
+
+
+            </section>
+            <article>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-6"><h3><a href="news.html">新闻</a></h3>
+                            <img src="img/dailynews.jpg" alt="image">
+                            <p>伊丽莎白女王向菲利普亲王告别，棺材上放着一张字条</p>
+                            <input
+                                   type="checkbox"
+                                   class="read-more-state"
+                                   id="read-more-controller"
+                                   />
+                            <div class="read-more-wrap">
+
+                                <p class="read-more-target">
+                                    女王和菲利普亲王在1947年结婚前，年轻时曾互通信件。菲利普亲王于4月9日去世，享年99岁。女王伊丽莎白二世继续她的传统，在他的葬礼上最后一次给他写信。爱丁堡公爵的棺木上放着一封来自女王的信和一个花圈。女王是与爱丁堡公爵结婚73年的妻子。虽然还不清楚这张写在女王信纸上的纸条上写的是什么，但从照片可以看出，纸条上有一部分写着“我爱你”。
+                                </p>
+                            </div>
+                            <label for="read-more-controller" class="read-more-trigger"></label></div>
+                        <div class="col-md-12 col-xl-6col-md-12 col-xl-6col-md-12 col-xl-6"> 
+                            <h3><a href="sport.html">运动</a></h3>
+                            <img src="img/sport.jpg" alt="image"> 
+                            <p>Max Verstappen赢得艾米利亚罗马涅大奖赛，刘易斯汉密尔顿恢复。</p></div>
+                        <div class="col-md-12 col-xl-6col-md-12 col-xl-6"> <h3><a href="travel.html">旅行</a></h3>
+                            <img src="img/travel.jpg" alt="image">
+                            <p>肯尼亚旅游局接受了新的欧洲代表。</p> </div>
+                        <div class="col-md-12 col-xl-6"> <h3><a href="culture.html">文化</a></h3>
+                            <img src="img/culture.jpg" alt="image">
+                            <p>随着病毒迫使人们重新思考，时尚产业正在发展</p></div>
+                    </div>
+                </div>
+
+            </article>
+        </main>
+        <footer class="text-center bg-dark text-warning pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    
+            </div>
+
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>   
+    </body>
+</html>
